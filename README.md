@@ -2,4 +2,5 @@
 
 ===THIS IS STILL IN PROGRESS===
 
-It will be broken as it has only just been started, saving it here for backu;.
+OLD project, needs reworking.
+This current version has been wipped of styling and will be redone

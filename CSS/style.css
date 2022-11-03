@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --primary: rgb(227, 1, 43);
+    --secondary: rgb(245, 245, 245);
+    --dark: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
+header {
+   padding: 1.5rem;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.navlink {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.order-now-link a {
+    background-color: var(--primary);
+    padding: 0.5rem;
+}
+
+#main-menu a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: calc(100% - 1rem);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.kfc-menu-select-strip {
+    background-color: var(--dark);
+    padding: 0.05rem;
+    text-align: center;
+    
+    
+}
+
+.menu-select-items {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.kfc-landing-welcome-container {
+    background: url(../Assets/homebanner.PNG);
+}
+
+.homebanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-container-items {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.order-now-link-2 {
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin: 1rem;
+}
